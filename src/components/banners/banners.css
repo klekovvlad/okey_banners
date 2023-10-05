@@ -1,0 +1,27 @@
+.banners-wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+}
+
+.banners {
+    padding: 20px 0px;
+}
+
+.banner {
+    position: relative;
+}
+
+.cities {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    padding: 6px;
+    border-radius: 4px;
+    background: #fff;
+}
+
+.city {
+    font-size: 12px;
+    font-family: Roboto, sans-serif;
+}
